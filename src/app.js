@@ -1,6 +1,6 @@
 const express = require("express");
 const { openConnection } = require("./config/db");
-const routesUser = require("./routes/user.oute");
+const routesUser = require("./routes/user.route");
 
 const port = process.env.PORT || 4000;
 const app = express();
